@@ -191,4 +191,4 @@ For any inquiries or feedback, please contact the development team:
 
 ---
 
-_Designed and developed in 2023_
+_Designed and developed in June 2023_
