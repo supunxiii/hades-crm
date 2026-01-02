@@ -1,67 +1,194 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## Overview
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+HADES CRM is a server-side web application developed for the COMP50016-K - Server-Side Programming module. The system models a gaming peripherals business and provides core CRM and e-commerce capabilities, including customer management, product and category handling, order processing, and analytics. The application is built around Laravel's MVC architecture and Eloquent ORM, with a clear business model and supporting documentation.
 
-## About Laravel
+![Laravel 10.13.1](https://img.shields.io/badge/Laravel-10.13.1-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![PHP 8.1](https://img.shields.io/badge/PHP-8.1-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Bootstrap 5.3.0](https://img.shields.io/badge/Bootstrap-5.3.0-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+HADES CRM provides the following features:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. **Business Model & Data Structure**
 
-## Learning Laravel
+    - Documented business logic and data structure
+    - Mind map illustrating the data model and system flow
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2. **Database Layer**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+    - Schema implemented using Laravel Eloquent ORM
+    - Migrations aligned with Laravel conventions
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. **Home Page**
 
-## Laravel Sponsors
+    - Brand-led landing page for HADES, a gaming peripheral company
+    - Visual explanation of the system and its workflow
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+4. **Authentication**
 
-### Premium Partners
+    - Laravel default login flow
+    - Registration form extended with phone number and address
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+5. **CRM Modules (CRUD + API)**
+
+    - Customer management
+    - Product management
+    - Product category management
+    - Order management
+    - Customer analytics
+
+6. **Role Management**
+
+    - Admin and normal user roles
+    - Role-based access to system components and permissions
+
+7. **Testing**
+
+    - Manual and automated testing for functionality, usability, and performance
+
+8. **Quality Assurance**
+
+    - Defined QA review process
+    - Detailed test cases to ensure reliability and consistency
+
+9. **Future Upgrade Plan**
+
+    - Prepared roadmap for scalability, maintainability, and long-term sustainability
+
+## Technologies Used
+
+-   **Laravel 10.13.1**: Application framework (from `composer.lock`)
+-   **PHP 8.1**: Server-side runtime (minimum required in `composer.json`)
+-   **MySQL**: Relational database (version configured per environment)
+-   **Bootstrap 5.3.0**: UI framework (from `package-lock.json`)
+
+## Project Specifications
+
+-   **Course**: COMP50016-K - Server-Side Programming
+-   **Domain**: CRM for a gaming peripheral business (HADES)
+-   **Architecture**: Laravel MVC with Eloquent ORM
+-   **Testing**: Manual and automated coverage
+
+## User Interfaces
+
+### UIs
+
+![HADES CRM UI 1](https://github.com/supunxiii/supunxiii/blob/7653f59dcf38771e7791a1cc0795c9d6b4cdcd3c/user-interfaces/hades-crm/hades-ui-1.png)
+
+### UIs
+
+![HADES CRM UI 2](https://github.com/supunxiii/supunxiii/blob/7653f59dcf38771e7791a1cc0795c9d6b4cdcd3c/user-interfaces/hades-crm/hades-ui-2.png)
+
+## Getting Started
+
+To run HADES CRM locally, follow these steps:
+
+1. Clone the repository:
+
+    ```shell
+    git clone https://github.com/supunxiii/hades-crm.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```shell
+    cd hades-crm
+    ```
+
+3. Install PHP dependencies:
+
+    ```shell
+    composer install
+    ```
+
+4. Create an environment file and generate the app key:
+
+    ```shell
+    cp .env.example .env
+    php artisan key:generate
+    ```
+
+5. Configure database credentials in `.env`, then run migrations:
+
+    ```shell
+    php artisan migrate
+    ```
+
+6. Install frontend dependencies and build assets:
+
+    ```shell
+    npm install
+    npm run build
+    ```
+
+7. Start the application:
+
+    ```shell
+    php artisan serve
+    ```
+
+## Project Structure
+
+```
+hades-crm/
+├── app/                              # Application logic
+├── bootstrap/                        # Framework bootstrapping
+├── config/                           # Configuration files
+├── database/                         # Migrations, seeders, factories
+├── public/                           # Public web root
+├── resources/                        # Views and frontend assets
+├── routes/                           # Route definitions
+├── storage/                          # Logs and cached files
+├── tests/                            # Automated tests
+├── composer.json                     # PHP dependencies
+├── package.json                      # Frontend dependencies
+└── vite.config.js                    # Vite build config
+```
+
+## Contributors
+
+This project was developed by:
+
+-   **Supun Wijesooriya** - Developer
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Contributions are welcome. If you would like to contribute:
 
-## Code of Conduct
+1. Fork the repository.
+2. Create a new branch:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    ```shell
+    git checkout -b feature/your-feature-name
+    ```
 
-## Security Vulnerabilities
+3. Commit your changes:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    ```shell
+    git commit -m "Add your commit message"
+    ```
+
+4. Push your branch:
+
+    ```shell
+    git push origin feature/your-feature-name
+    ```
+
+5. Open a pull request with a clear description of your changes.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# hades-crm" 
+This project is open-source and is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any inquiries or feedback, please contact the development team:
+
+-   **Supun Wijesooriya**: [GitHub Profile](https://github.com/supunxiii)
+-   **Project Repository**: [hades-crm](https://github.com/supunxiii/hades-crm)
+
+---
+
+_Designed and developed in 2023_
